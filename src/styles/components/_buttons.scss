@@ -1,0 +1,23 @@
+.btn {
+	@apply font-bold text-sm py-2 px-4 w-fit flex justify-center items-center gap-2 border border-solid border-transparent rounded-full;
+
+	&-primary {
+		@apply bg-primary text-white;
+		&-outline {
+			@apply bg-white text-primary border-primary;
+		}
+	}
+	&-secondary {
+		@apply bg-secondary text-white;
+		&-outline {
+			@apply bg-secondary text-white border-white;
+		}
+	}
+
+	&-danger {
+		@apply text-white bg-[#E84434];
+	}
+	&-info {
+		@apply text-white bg-[#1977F2];
+	}
+}
