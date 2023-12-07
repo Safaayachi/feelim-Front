@@ -8,7 +8,7 @@
 		}
 	}
 	&-secondary {
-		@apply bg-secondary text-white;
+		@apply bg-secondary-tint text-primary;
 		&-outline {
 			@apply bg-secondary text-white border-white;
 		}
