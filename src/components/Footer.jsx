@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<footer className="w-full relative bg-black text-white font-poppins">
-			<div className="w-full container sm:mx-auto  md:px-10 px-6 py-16 lg:pt-10 flex flex-col items-center">
+		<footer className="w-full bg-black text-white font-poppins border-t ">
+			<div className="w-full container sm:mx-auto  md:px-10 px-6 py-16 lg:pt-10 flex flex-col items-center border-solid border-primary-shade border-opacity-40">
 				<div className="flex flex-row  items-center py-4 space-x-4">
 					<div className="h-8 w-8 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
 						<i className="icon-github text-white text-xs"></i>

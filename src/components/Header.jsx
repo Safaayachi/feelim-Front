@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<header className="relative h-16 bg-black shadow-xl font-poppins border-b border-solid">
+		<header className="h-16 bg-transparent fixed z-30 font-poppins  w-full ">
 			<nav className="flex flex-row justify-between h-full items-center container sm:mx-auto px-6">
 				<Link to="/">
 					<div className="text-white font-dancingscript text-2xl">
@@ -23,8 +23,8 @@ const Header = () => {
 					</Link>
 
 					<Link to="/SignIn">
-						<div className="flex  items-center justify-center">
-							<div className="h-8 w-full rounded-full bg-gradient-to-r from-secondary-tint to-primary p-0.5">
+						<div className=" items-center justify-center hidden">
+							<div className="h-8 w-full rounded-full bg-gradient-to-r from-primary to-secondary-tint p-0.5">
 								<div className="flex h-full w-full items-center justify-center rounded-full bg-black back p-2 px-4">
 									<h1 className="text-xxs font-black text-white">
 										Sign In
