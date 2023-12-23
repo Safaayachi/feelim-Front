@@ -4,6 +4,7 @@ export default function Home() {
 	return (
 		<>
 			<div className=" bg-black max-h-screen">
+				
 				<div className="relative flex flex-col  container sm:mx-auto px-4">
 					<div className="py-32 px-24 text-white font-poppins text-sm w-3/4">
 						<div className="font-extrabold text-transparent text-3xl md:text-8xl  bg-clip-text bg-gradient-to-r from-primary to-secondary-tint">
